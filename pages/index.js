@@ -38,7 +38,7 @@ export default function Home() {
       <main>
         <section className="py-5">
           <Container>
-            <Row>
+            <Row className="align-items-center">
               <Col xs={6}>
                 <p>Top Web and Mobile Apps Development Company</p>
                 <h1 className="fs-1 fw-bolder">
@@ -159,6 +159,11 @@ export default function Home() {
               </Col>
             </Row>
           </Container>
+        </section>
+        <section>
+          <div class="about-section">
+            
+          </div>
         </section>
       </main>
       <footer></footer>

@@ -23,6 +23,10 @@ h1 {
     font-family: 'Rambla', sans-serif;
 }
 
+p {
+    font-family: 'Metrophobic', sans-serif;
+}
+
 
 .process-icon {
     font-size: 2.5rem;
@@ -39,4 +43,10 @@ h1 {
     justify-content: space-between;
     align-items: center;
     gap: 2rem;
+}
+
+.about-section {
+    background-image: url("../public/img/globe-bg-img.jpg");
+    object-fit: cover;
+    background-repeat: no-repeat;
 }
