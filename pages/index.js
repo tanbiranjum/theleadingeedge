@@ -191,24 +191,33 @@ export default function Home() {
                       home.
                     </Card.Text>
                     <ListGroup className="border-0 py-3">
-                      <ListGroup.Item className="d-flex align-center bg-dark text-white p-0 border-0">
+                      <ListGroup.Item className="d-flex align-items-baseline gap-1 bg-dark text-white p-0 border-0">
                         <FaDove />
-                        <p>Cras justo odio</p>
+                        <p className="mb-0">Cras justo odio</p>
                       </ListGroup.Item>
-                      <ListGroup.Item className="bg-dark text-white p-0 border-0">
-                        Dapibus ac facilisis in
+                      <ListGroup.Item className="d-flex align-items-baseline gap-1 bg-dark text-white p-0 border-0">
+                        <FaDove />
+                        <p className="mb-0">Cras justo odio</p>
                       </ListGroup.Item>
-                      <ListGroup.Item className="bg-dark text-white p-0 border-0">
-                        Morbi leo risus
+                      <ListGroup.Item className="d-flex align-items-baseline gap-1 bg-dark text-white p-0 border-0">
+                        <FaDove />
+                        <p className="mb-0">Cras justo odio</p>
                       </ListGroup.Item>
-                      <ListGroup.Item className="bg-dark text-white p-0 border-0">
-                        Porta ac consectetur ac
+                      <ListGroup.Item className="d-flex align-items-baseline gap-1 bg-dark text-white p-0 border-0">
+                        <FaDove />
+                        <p className="mb-0">Cras justo odio</p>
                       </ListGroup.Item>
-                      <ListGroup.Item className="bg-dark text-white p-0 border-0">
-                        Porta ac consectetur ac
+                      <ListGroup.Item className="d-flex align-items-baseline gap-1 bg-dark text-white p-0 border-0">
+                        <FaDove />
+                        <p className="mb-0">Cras justo odio</p>
                       </ListGroup.Item>
                     </ListGroup>
-                    <Button variant="primary">What We Do</Button>{" "}
+                    <Button
+                      variant="primary"
+                      style={{ alignSelf: "flex-start" }}
+                    >
+                      What We Do
+                    </Button>{" "}
                   </Card>
                 </Col>
               </Row>
