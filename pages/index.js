@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import { Button, Container, Row, Col, Card } from "react-bootstrap";
+import { Button, Container, Row, Col, Card, ListGroup } from "react-bootstrap";
 import HeroBannerImg from "../public/img/home-page-banner-img.svg";
 
 import { FaDove, FaPaperPlane } from "react-icons/fa";
@@ -161,8 +161,58 @@ export default function Home() {
           </Container>
         </section>
         <section>
-          <div class="about-section">
-            
+          <div
+            class="about-section"
+            // image src specified in stylesz
+            style={{
+              height: "70vh",
+              width: "100%",
+              display: "flex",
+              alignItems: "center",
+            }}
+          >
+            <Container>
+              <Row>
+                <Col xs={5}>
+                  <Card
+                    className="bg-dark text-white p-4"
+                    style={{ width: "auto" }}
+                  >
+                    <Card.Title className="fs-3 fw-bolder">
+                      About Our Company
+                    </Card.Title>
+                    <Card.Text>
+                      Amid the stress around pandemic of COVID-19, the team
+                      IndiaNIC is committed to providing uninterrupted services
+                      to all of our clients as well as ready to take up new
+                      assignments. All of our team members, including engineers,
+                      project managers, and business consulting teams are
+                      available during business hours and are safe working from
+                      home.
+                    </Card.Text>
+                    <ListGroup className="border-0 py-3">
+                      <ListGroup.Item className="d-flex align-center bg-dark text-white p-0 border-0">
+                        <FaDove />
+                        <p>Cras justo odio</p>
+                      </ListGroup.Item>
+                      <ListGroup.Item className="bg-dark text-white p-0 border-0">
+                        Dapibus ac facilisis in
+                      </ListGroup.Item>
+                      <ListGroup.Item className="bg-dark text-white p-0 border-0">
+                        Morbi leo risus
+                      </ListGroup.Item>
+                      <ListGroup.Item className="bg-dark text-white p-0 border-0">
+                        Porta ac consectetur ac
+                      </ListGroup.Item>
+                      <ListGroup.Item className="bg-dark text-white p-0 border-0">
+                        Porta ac consectetur ac
+                      </ListGroup.Item>
+                    </ListGroup>
+                    <Button variant="primary">What We Do</Button>{" "}
+                  </Card>
+                </Col>
+              </Row>
+            </Container>
           </div>
         </section>
       </main>

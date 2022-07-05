@@ -25,6 +25,7 @@ h1 {
 
 p {
     font-family: 'Metrophobic', sans-serif;
+    padding: 0;
 }
 
 
@@ -47,6 +48,6 @@ p {
 
 .about-section {
     background-image: url("../public/img/globe-bg-img.jpg");
-    object-fit: cover;
+    background-size: cover;
     background-repeat: no-repeat;
 }
