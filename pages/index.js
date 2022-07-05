@@ -65,7 +65,7 @@ export default function Home() {
         </section>
         <section className="py-5">
           <Container>
-            <h1 className="fs-2 fw-bolder pb-4">
+            <h1 className="fs-2 fw-bolder pb-5">
               We Simplify Software Development Process
             </h1>
             <Row>
